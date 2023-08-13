@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio da Tatuadora</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="site-title">Portfólio da Tatuadora</h1>
+  </header>
+  <div class="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="https://www.rodrigoalves.med.br/wp-content/uploads/2021/04/post07.jpg" alt="Tatuagem 1">
+      </div>
+      <div class="carousel-item">
+        <img src="https://tattoopro.pt/wp-content/uploads/2020/07/slide2qa-compressed-1-scaled.jpg" alt="Tatuagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://f.vividscreen.info/soft/2a5f9a7c7975ded0b8a58d68d97750e4/Girl-With-Black-Tattoo-1920x1200.jpg" alt="Tatuagem 3">
+      </div>
+      <!-- Adicione mais imagens conforme necessário -->
+    </div>
+  </div>
+  <div class="site-description">
+    <p class="site-description-text">Confira as <strong>incríveis obras</strong> da nossa tatuadora talentosa!</p>
+  </div>
+
+<div class="tattoo-details">
+    <h2>Detalhes de Tatuagens</h2>
+    <p>Explore os detalhes das tatuagens em nosso portfólio e agende sua próxima obra-prima conosco!</p>
+    <a href="portfolio.html" class="portfolio-button">Portfólio</a>
+    <a href="#" class="portfolio-button">Agendamento</a>
+  </div>
+  
+  <script>
+    const carouselInner = document.querySelector('.carousel-inner');
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      carouselInner.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % carouselInner.children.length;
+      showSlide(currentIndex);
+    }
+
+    setInterval(nextSlide, 5000); // Trocar o slide a cada 5 segundos
+  </script>
+</body>
+</html>
