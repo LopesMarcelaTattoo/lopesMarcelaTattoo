@@ -1,0 +1,157 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190813/pngtree-halloween-bats-background-image_290004.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+  }
+  
+  .site-title {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    min-width: 100%;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .site-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Outros estilos... */
+
+.site-description-text {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Outros estilos... */
+  
+  
+/* Outros estilos... */
+
+.tattoo-details {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .tattoo-details h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tattoo-details p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .portfolio-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  .portfolio-button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+  }
+  
+  /* Outros estilos... */  
+  
+  
+  /* Estilos para dispositivos móveis */
+  @media screen and (max-width: 768px) {
+    .site-title {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
+  
+    .carousel-item {
+      flex: 0 0 100%;
+    }
+  
+    .tattoo-details {
+      padding: 1rem;
+      margin-top: 1rem;
+    }
+  }
+
+  /* Outros estilos... */
+
+.image-library {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .image {
+    flex: 0 0 calc(33.33% - 20px);
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .back-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+  }
+  
+  /* Outros estilos... */
+  
+  
